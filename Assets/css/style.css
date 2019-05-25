@@ -1,0 +1,39 @@
+.backgroundimage {
+    background-image: url("../image/Psychic-Abilities-List-Psychic-Powers-Types-1200x899.jpg");
+ height: 1000px;
+    width:  auto;
+background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.head {
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    color: white;
+    padding-top: 50px;
+}
+
+.wins{
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    color: white;
+}
+
+.losses{
+    text-align: center;
+    color: red;
+}
+
+.Gueses{
+    text-align: center;
+    color: red;
+
+
+}
+
+.Letters-guessed{
+    text-align: center;
+    color: red;
+
+
+}
