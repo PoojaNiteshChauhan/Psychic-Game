@@ -10,30 +10,42 @@ background-repeat: no-repeat; /* Do not repeat the image */
     text-align: center;
     text-shadow: 2px 2px 5px red;
     color: white;
-    padding-top: 50px;
+    padding-top: 40px;
+    font-size: 30px;
 }
 
-.wins{
+#wins{
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    color:white;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+#losses{
     text-align: center;
     text-shadow: 2px 2px 5px red;
     color: white;
+    padding-top: 80px;
+    font-size: 35px;
+    
 }
 
-.losses{
+#GuesesLeft{
     text-align: center;
-    color: red;
+    text-shadow: 2px 2px 5px red;
+    color: white;
+    padding-top: 80px;
+    font-size: 35px;
+
+
 }
 
-.Gueses{
+#soFar{
+
     text-align: center;
-    color: red;
-
-
-}
-
-.Letters-guessed{
-    text-align: center;
-    color: red;
-
-
+    text-shadow: 2px 2px 5px red;
+    color: white;
+    padding-top: 80px;
+    font-size: 35px;
 }
