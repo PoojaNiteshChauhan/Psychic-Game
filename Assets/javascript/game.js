@@ -18,6 +18,8 @@ var computerGuess = computerChoice[Math.floor(Math.random()* computerChoice.leng
 function resetGame(){
 
     guessesLeft = 5; // This operation will be done for both win or loss 
+    GuesesL.innerText = "Guesses Left: 5";
+    soF.innerText = "Your Guesses so far:";
     soFar = []; // This operation will be done for both win or loss 
     computerGuess = computerChoice[Math.floor(Math.random()* computerChoice.length)];
 }
@@ -63,6 +65,7 @@ function playgame()
             else  if (computerGuess === userGuess) 
             {
                 wins++;
+
                 resetGame();
                 updateScoreBoard();
             } 
